@@ -5694,9 +5694,9 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <instance part="LED2" gate="G$1" x="106.68" y="48.26" rot="R90"/>
 <instance part="P+1" gate="1" x="76.2" y="43.18"/>
 <instance part="GND1" gate="1" x="116.84" y="45.72"/>
-<instance part="GND2" gate="1" x="33.02" y="35.56"/>
-<instance part="P+2" gate="1" x="40.64" y="66.04"/>
-<instance part="PAD1" gate="1" x="43.18" y="60.96" rot="R180"/>
+<instance part="GND2" gate="1" x="30.48" y="33.02"/>
+<instance part="P+2" gate="1" x="40.64" y="73.66"/>
+<instance part="PAD1" gate="1" x="43.18" y="66.04" rot="R180"/>
 <instance part="PAD2" gate="1" x="119.38" y="53.34" rot="R180"/>
 </instances>
 <busses>
@@ -5729,15 +5729,15 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <segment>
 <pinref part="IC1" gate="A" pin="GND"/>
 <wire x1="45.72" y1="40.64" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="40.64" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="40.64" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="33.02" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
-<junction x="33.02" y="38.1"/>
+<wire x1="30.48" y1="35.56" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
+<junction x="30.48" y="35.56"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="48.26" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="48.26" x2="10.16" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -5788,17 +5788,14 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </net>
 <net name="+5V" class="0">
 <segment>
-<wire x1="40.64" y1="66.04" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="63.5" x2="40.64" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="60.96" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="71.12" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="66.04" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="R"/>
-<wire x1="45.72" y1="50.8" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
-<junction x="45.72" y="50.8"/>
 <pinref part="PAD1" gate="1" pin="P"/>
-<junction x="40.64" y="60.96"/>
+<junction x="40.64" y="66.04"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
-<junction x="40.64" y="63.5"/>
+<junction x="40.64" y="71.12"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>

@@ -1,0 +1,78 @@
+Studie: Verhalten von Vibrationsmotoren
+
+In der Studie wollen wir in Erfahrung bringen, ob und wie das Gefühl von Vibration auf der Haut ist.
+
+1. Was wollen wir herausfinden:
+*Welche Körperareale in der Zielregion nehmen die Vibration wie stark wahr?
+*Wird pulsierende Vibration anders wahrgenommen als gleichbleibende, ansteigende oder geringerwerdenede
+*Intensitätsveränderungen durch verschiedene Anlaufprofile
+*Maximal und runter-regeln
+*Langsam hochregeln
+*Welche Gefühle verspüren die Probanden? Positiv, negativ, unbeeindruckt.
+*Welche Programme sollte man als voreinstellung haben?
+*"Langzeitschäden" - was passiert bei einem Motor auf 100% über X Minuten?
+*Mechanik des Motors
+*wie viel Strom hält der Motor aus?
+*in welchem Spannungsbereich funktioniert der Motor?
+*In wie fern ändert Spannung und Strom die Intensität des Motors?
+
+
+2. Durchführung
+
+Die Gruppen sollten jeweils noch nach Geschlecht und nach Alter geteilt werden, um möglichst viele Daten zu erhalten.
+
+*Positiv-Gruppe 1 (Motortyp 1)
+*Ankündigung, welches Programm gerade gefahren wird.
+*Innerhalb der Zielregion
+*Positiv-Gruppe 2 (Motortyp 2)
+*Ankündigung, welches Programm gerade gefahren wird.
+*Innerhalb der Zielregion
+*Vergleichsgruppe 1 (Motortyp 1)
+*keine Ankündigung welches Programm gerade läuft (steigend, abfallend, pulsierend, gleichbleibend)
+*Ausserhalb der Zielregion (zB Handrücken)
+*Vergleichsgruppe 2 (Motortyp 2)
+*keine Ankündigung welches Programm gerade läuft (steigend, abfallend, pulsierend, gleichbleibend)
+*Ausserhalb der Zielregion (zB Handrücken)
+*
+3. Plausibilitätsprüfung
+*Intensitätsveränderungen nicht immer vornehmen und nach Verändung fragen (projezieren Probanden die Erwartungen an den Test auf die Ergebnisse?)
+*
+*Skalen einführen für Bestimmung von Emotionswerten (1-10 = unangenehm  bis angenehm)
+
+
+4. Ergebnisse:
+
+Dises Informationen versprechen wir uns von den Experimenten
+
+*linearisierungsfunktion mit Bezug zu Sinneswahrnehmung  beim Menschen
+*Informationen, welches der Zielbereich ist (intensität) / Informationen, wie stark Vibrationsmotoren sein müssen
+*Informationen, welches der Zielbereich ist (position)
+*Nach welcher Intensität ist die maximale Response nach welcher Zeit wiederhergestellt? In Ruhe / bei niedriger Vibration / ...
+*Lässt die gefühlte Intensität über die Zeit nach?
+*Erstellen normalisierter Intensitätsprofile zur kalibrierung der Smartphone Applikation (mehr Intensität durch längeres drücken)
+
+
+5. Experimente
+5.1 Vergleich verschiedener Intensitätsformen
+*Wo liegt die minimale und maximale Wahrnehmungsschwelle (maximal = wann merkt man nicht mehr, minimal = wann merkt man nix)
+*Wie stark muss pulsieren aendern bis es wahrgenommen wird
+*Wie stark muss fallen bis es wahrgenommen wird
+*Wie stark muss steigen bis es wahrgenommen wird
+
+5.2 Linearisierung 
+*Ist die Empfindung linear? Kann durch linearisierung der Motorleistung eine Empfindung linearisiert werden?
+*Wie muss eine Korrekturfunktion bestimmt werden, sodass es eine lineare Empfindung gibt?
+
+5.3 Mechanik des Motors
+*Wie viel Strom hält der Motor aus/verbraucht der Motor?
+*In welchem Spannungsbereich operiert der Motor?
+*In wie fern ändert die Spannung die Intensität? -> Probandentest
+
+5.4 Gewöhnungsphase und Recovery
+*Bestimmen: Tritt ein Gewöhnungseffekt ein und wenn ja, wann?
+*Mit dem Ergebnis "Gewöhnungseffekt aus Experiment 5.1 die Zeit bestimmen, ab wann wieder gleich stark wahrgenommen wird wie zu Beginn
+
+5.5 Abstand / Wirkungskreis / Druck
+*Kleinerer / Mittlerer und Grosser Druck des Vibrationsmotors gegen das betroffene Hautareal testen
+
+
