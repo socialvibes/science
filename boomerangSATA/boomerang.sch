@@ -5949,12 +5949,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="7.62" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
 <text x="-1.778" y="10.414" size="1.778" layer="95">&gt;NAME</text>
 <text x="9.906" y="-9.652" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="GND" x="-7.62" y="7.62" length="middle" direction="pwr"/>
-<pin name="GND1" x="-7.62" y="5.08" length="middle" direction="pwr"/>
+<pin name="VCC2" x="-7.62" y="7.62" length="middle" direction="pwr"/>
+<pin name="GND3" x="-7.62" y="5.08" length="middle" direction="pwr"/>
 <pin name="GND2" x="-7.62" y="2.54" length="middle" direction="pwr"/>
 <pin name="SDA" x="-7.62" y="0" length="middle"/>
 <pin name="SCL" x="-7.62" y="-2.54" length="middle"/>
-<pin name="VCC" x="-7.62" y="-5.08" length="middle" direction="pwr"/>
+<pin name="GND1" x="-7.62" y="-5.08" length="middle" direction="pwr"/>
 <pin name="VCC1" x="-7.62" y="-7.62" length="middle" direction="pwr"/>
 </symbol>
 </symbols>
@@ -5968,13 +5968,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <devices>
 <device name="-RA" package="SATA7-RA">
 <connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="GND1" pad="2"/>
+<connect gate="G$1" pin="GND1" pad="6"/>
 <connect gate="G$1" pin="GND2" pad="3"/>
+<connect gate="G$1" pin="GND3" pad="2"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="6"/>
 <connect gate="G$1" pin="VCC1" pad="7"/>
+<connect gate="G$1" pin="VCC2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5982,13 +5982,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 </device>
 <device name="-VERT" package="SATA7-VERT">
 <connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="GND1" pad="2"/>
+<connect gate="G$1" pin="GND1" pad="6"/>
 <connect gate="G$1" pin="GND2" pad="3"/>
+<connect gate="G$1" pin="GND3" pad="2"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="6"/>
 <connect gate="G$1" pin="VCC1" pad="7"/>
+<connect gate="G$1" pin="VCC2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5996,13 +5996,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 </device>
 <device name="-RA-NOHOLES" package="SATA7-RA-NOHOLES">
 <connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="GND1" pad="2"/>
+<connect gate="G$1" pin="GND1" pad="6"/>
 <connect gate="G$1" pin="GND2" pad="3"/>
+<connect gate="G$1" pin="GND3" pad="2"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="6"/>
 <connect gate="G$1" pin="VCC1" pad="7"/>
+<connect gate="G$1" pin="VCC2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6149,18 +6149,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="60.96" y1="35.56" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="GND1"/>
-<wire x1="81.28" y1="0" x2="83.82" y2="0" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="GND3"/>
 <label x="93.98" y="0" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="GND2"/>
-<wire x1="83.82" y1="0" x2="86.36" y2="0" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="0" x2="86.36" y2="0" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="0" x2="99.06" y2="0" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="2.54" x2="86.36" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="2.54" x2="86.36" y2="0" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="VCC"/>
-<wire x1="81.28" y1="10.16" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="10.16" x2="60.96" y2="0" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="0" x2="81.28" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -6179,6 +6174,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="172.72" y1="22.86" x2="167.64" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="22.86" x2="167.64" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="C-RO" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="GND1"/>
+<wire x1="81.28" y1="10.16" x2="99.06" y2="10.16" width="0.1524" layer="91"/>
+<label x="93.98" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -6207,14 +6207,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="VCC1"/>
-<wire x1="81.28" y1="12.7" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
-<label x="93.98" y="12.7" size="1.778" layer="95"/>
-<wire x1="81.28" y1="12.7" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="12.7" x2="55.88" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="GND"/>
-<wire x1="55.88" y1="-2.54" x2="81.28" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="VCC2"/>
 <wire x1="81.28" y1="-2.54" x2="99.06" y2="-2.54" width="0.1524" layer="91"/>
+<label x="93.98" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="1" pin="VCC"/>
@@ -6238,6 +6233,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="165.1" y1="33.02" x2="165.1" y2="38.1" width="0.1524" layer="91"/>
 <label x="165.1" y="38.1" size="1.778" layer="95" rot="R270"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="VCC1"/>
+<wire x1="81.28" y1="12.7" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
+<label x="93.98" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC_GOOD" class="0">
