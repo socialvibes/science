@@ -427,7 +427,7 @@ design rules under a new name.</description>
 <wire x1="51.589078125" y1="34.235525" x2="45.72" y2="34.235525" width="0.8128" layer="1"/>
 <wire x1="45.72" y1="34.235525" x2="35.505525" y2="34.235525" width="0.8128" layer="1"/>
 <wire x1="51.54613125" y1="23.4928125" x2="45.72" y2="29.31894375" width="0.8128" layer="1"/>
-<wire x1="45.72" y1="29.31894375" x2="45.72" y2="34.235525" width="0.6096" layer="1"/>
+<wire x1="45.72" y1="29.31894375" x2="45.72" y2="34.235525" width="0.8128" layer="1"/>
 </signal>
 <signal name="SDA">
 <contactref element="J2" pad="4"/>
