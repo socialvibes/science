@@ -126,14 +126,14 @@
 <library name="armin">
 <packages>
 <package name="TEXTOOL">
-<pad name="P$1" x="-3.4925" y="1.27" drill="1"/>
-<pad name="P$2" x="-8.5725" y="0.3175" drill="1"/>
-<pad name="P$3" x="-3.4925" y="-0.9525" drill="1"/>
-<pad name="P$4" x="-8.5725" y="-2.06375" drill="1"/>
-<pad name="P$5" x="2.69875" y="-2.06375" drill="1"/>
-<pad name="P$6" x="7.77875" y="-1.11125" drill="1"/>
-<pad name="P$7" x="2.69875" y="0.47625" drill="1"/>
-<pad name="P$8" x="7.77875" y="1.27" drill="1"/>
+<pad name="P$1" x="7.77875" y="1.27" drill="0.9"/>
+<pad name="P$2" x="2.69875" y="0.3175" drill="0.9"/>
+<pad name="P$3" x="7.77875" y="-1.11125" drill="0.9"/>
+<pad name="P$4" x="2.69875" y="-2.06375" drill="0.9"/>
+<pad name="P$5" x="-8.5725" y="-2.06375" drill="0.9"/>
+<pad name="P$6" x="-3.4925" y="-1.11125" drill="0.9"/>
+<pad name="P$7" x="-8.5725" y="0.3175" drill="0.9"/>
+<pad name="P$8" x="-3.4925" y="1.27" drill="0.9"/>
 </package>
 </packages>
 <symbols>
@@ -160,14 +160,14 @@
 <devices>
 <device name="" package="TEXTOOL">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-<connect gate="G$1" pin="P$5" pad="P$5"/>
-<connect gate="G$1" pin="P$6" pad="P$6"/>
-<connect gate="G$1" pin="P$7" pad="P$7"/>
-<connect gate="G$1" pin="P$8" pad="P$8"/>
+<connect gate="G$1" pin="P$1" pad="P$8"/>
+<connect gate="G$1" pin="P$2" pad="P$7"/>
+<connect gate="G$1" pin="P$3" pad="P$6"/>
+<connect gate="G$1" pin="P$4" pad="P$5"/>
+<connect gate="G$1" pin="P$5" pad="P$4"/>
+<connect gate="G$1" pin="P$6" pad="P$3"/>
+<connect gate="G$1" pin="P$7" pad="P$2"/>
+<connect gate="G$1" pin="P$8" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
